@@ -1,16 +1,22 @@
 # persian_counter_app
 
-A new Flutter project.
+Its the default Flutter counter app <br>
+but translated and optimized with persian language.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+### Demo:
 
-A few resources to get you started if this is your first Flutter project:
+https://user-images.githubusercontent.com/82409174/126063104-fddabc46-cfb6-40e0-babb-3e47bf2ee67b.mp4
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Features
+* Persian guide comments
+* Persian numbers and counter
+* Persian DEBUG banner
+* Right aligned Scaffold Widget
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<hr>
+I will appreciate if you give star to this project.
+
+#### Resources:
+* Dart Persian Tools: https://github.com/persian-tools/dart-persian-tools
+* Vazir Font: https://github.com/rastikerdar/vazir-font
