@@ -1,0 +1,126 @@
+name: persian_counter_app
+description: A new Flutter project.
+
+# کد زیر از انتشار ناخواسته پکیج در
+# pub.dev
+# هنگام استفاده از کامندِ
+# `pub publish`
+# .جلوگیری میکند
+publish_to: "none"
+# این کد ترجیحاً برای پکیج های خصوصی بکار میرود
+# اگر قصد انتشار پکیج تان را
+# pub.dev
+# .دارید، این کد را حذف کنید
+
+# کد زیر ورژن و بیلد نامبر اپلیکیشن شما را تنظیم میکند
+# ورژن متشکل از سه عدد است که با . از یکدیگر جدا شده اند مثل 1.2.43
+# .همچنین ورژن میتواند با یک بیلد نامبر اختیاری که با + جدا شده دنبال شود
+# ورژن و بیلد نامبر در
+# flutter build
+# با اتربیوت های
+# --build-name , --build-number
+# :میتوانند به ترتیب مقدار دهی شوند.مثال
+# flutter build apk --build-name=1.0.2 --build-number=3
+# در اندروید
+# build-name
+# بعنوان
+# versionName
+# .استفاده میشود
+# build-number
+# نیز بعنوان
+# versionCode
+# .بکار میرود
+# :برای اطلاعات بیشتر درباره ورژنینگ در اندروید به لینک زیر مراجعه کنید
+# https://developer.android.com/studio/publish/versioning
+
+# در آی‌اواس
+# build-name
+# بعنوان
+# CFBundleShortVersionString
+# استفاده میشود
+# درحالی که
+# build-number
+# بعنوان
+# CFBundleVersion
+# .تنظیم میشود
+# :برای اطلاعات بیشتر درباره ورژنینگ در آی‌اواس به لینک زیر مراجعه کنید
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # کد زیر آیکون های
+  # Cupertino
+  # .را به اپلیکیشن شما اضافه میکند
+  # :در فلاتر بصورت مقابل شما میتوانید از آیکون های موجود در این پکیج استفاده کنید
+  # Icon(CupertinoIcons.add_circled)
+  cupertino_icons: ^1.0.2
+
+  # :کد زیر نیز برای اهداف فارسی سازی اپلیکیشن استفاده میشود
+  persian_tools: ^1.0.1
+  # :اطلاعات بیشتر درباره پرشین تولز
+  # https://github.com/persian-tools/dart-persian-tools
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# برای دریافت اطلاعات بیشتر درباره بخش عمومی دارت در
+# pubspec.yaml
+# :به لینک زیر مراجعه کنید
+# https://dart.dev/tools/pub/pubspec
+
+# .قسمت زیر مخصوص فلاتر است
+flutter:
+  # کد زیر شما را مطمئن میسازد که
+  # Material Icons
+  # در اپلیکیشن شما موجود خواهد بود، بنابراین میتوانید از این ایکون ها در کلاس
+  # Icons
+  # .استفاده کنید
+  uses-material-design: true
+  # :مثال در فلاتر
+  # Icon(Icons.mail)
+
+  # برای اضافه کردن
+  # assets
+  # .به اپلیکیشن خود مثل زیر عمل کنید
+  # .بخش زیر را از حالت کامنت خارج کنید و به فایل های خود در زیر آدرس دهی کنید
+  # assets:
+  #   - images/image.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # .اینها میتواند به یک یا چند فایل تصویری در رزولوشن های مختلف ارجاع داده شود
+  # :برای اطلاعات بیشتر به لینک زیر مراجعه کنید
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # برای جزئیات بیشتر درباره اضافه کردن
+  # assets
+  # :نیز میتوانید به لینک زیر مراجعه کنید
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # .برای اضافه کردن فونت های سفارشی به اپلیکیشن خود در این قسمت بصورت زیر عمل کنید
+  # هر ورودی در این لیست باید یک کلید
+  # family
+  # بعنوان نمایانگر نام فونت و یک کلید
+  # fonts
+  # بعنوان لیستی از آدرس
+  # asset
+  # های فونت سفارشی و سایر توضیحات آن مثل
+  # style: italic
+  # .باشد
+  fonts:
+    # .من در اینجا از فونت وزیر برای فونت پیش فرض اپ استفاده خواهم کرد
+    - family: Vazir
+      fonts:
+        - asset: fonts/Vazir-Regular.ttf
+    - family: Vazir Bold
+      fonts:
+        - asset: fonts/Vazir-Bold.ttf
+
+  # برای جزئیات بیشتر درباره اضافه کردن فونت ها به اپلیکیشن به لینک زیر مراجعه کنید
+  # https://flutter.dev/custom-fonts/#from-packages
